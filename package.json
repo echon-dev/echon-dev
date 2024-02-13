@@ -1,6 +1,5 @@
 {
   "name": "@echon-dev/root",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
