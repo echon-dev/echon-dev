@@ -1,6 +1,6 @@
 {
   "name": "@echon-dev/ip-helpers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A package to manipulated IP address",
   "author": "brian-nunez <bnunez9999@gmail.com>",
   "license": "MIT",
