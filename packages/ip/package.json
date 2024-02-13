@@ -4,7 +4,7 @@
   "description": "A package to manipulated IP address",
   "author": "brian-nunez <bnunez9999@gmail.com>",
   "license": "MIT",
-  "main": "lib/ip.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
