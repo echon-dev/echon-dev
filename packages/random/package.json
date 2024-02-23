@@ -1,7 +1,7 @@
 {
-  "name": "@echon-dev/ip-helpers",
-  "version": "0.0.3",
-  "description": "A package to manipulated IP address",
+  "name": "@echon-dev/random-helpers",
+  "version": "0.0.0",
+  "description": "A package to help with random generation of data",
   "author": "brian-nunez <bnunez9999@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
@@ -15,6 +15,7 @@
   "scripts": {
     "prebuild": "rm -rf ./lib",
     "build": "tsc -b",
+    "postbuild": "cp package.json lib/package.json",
     "test": "jest"
   },
   "devDependencies": {
@@ -28,6 +29,7 @@
     "typescript": "^5.3.3"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "./lib"
   }
 }
