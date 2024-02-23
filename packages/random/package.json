@@ -9,9 +9,6 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
   "scripts": {
     "prebuild": "rm -rf ./lib",
     "build": "tsc -b",
