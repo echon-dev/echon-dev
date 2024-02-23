@@ -6,6 +6,7 @@
   ],
   "command": {
     "publish": {
+      "directory": "{workspaceRoot}/lib/{projectRoot}",
       "message": "release(packages): publish versions"
     }
   }

@@ -2,3 +2,5 @@ node_modules/
 test-results/
 lib/
 coverage/
+lerna-debug.log
+.DS_STORE
