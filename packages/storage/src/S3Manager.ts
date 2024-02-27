@@ -115,7 +115,7 @@ export class S3Manager implements StorageManager {
     };
   }
 
-  async *list<T>(prefix = '', maxItems = 10): AsyncGenerator<s3._Object> {
+  async *list(prefix = '', maxItems = 10): AsyncGenerator<s3._Object> {
     let resolvedPrefix = prefix;
     if (resolvedPrefix === '.') resolvedPrefix = '';
 
@@ -124,7 +124,7 @@ export class S3Manager implements StorageManager {
     do {
       const options: s3.ListObjectsV2CommandInput = {
         Bucket: this.config.location,
-        Prefix: prefix,
+        Prefix: resolvedPrefix,
         MaxKeys: maxItems,
       };
 
