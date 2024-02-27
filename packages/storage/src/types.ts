@@ -4,7 +4,7 @@ export type Config = {
     clientId?: string;
     clientToken?: string;
   },
-  location?: string;
+  location: string;
   region?: string;
   client?: unknown;
 };
