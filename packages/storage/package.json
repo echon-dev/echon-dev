@@ -1,6 +1,6 @@
 {
   "name": "@echon-dev/storage",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A package to use files and directories as a storage system",
   "author": "brian-nunez <bnunez9999@gmail.com>",
   "license": "MIT",
