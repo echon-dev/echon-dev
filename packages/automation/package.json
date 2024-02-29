@@ -1,7 +1,7 @@
 {
   "name": "@echon-dev/automation",
   "version": "0.0.1",
-  "description": "A package to expose common automation functions",
+  "description": "A package to expose common automation functions with webdriverio",
   "author": "brian-nunez <bnunez9999@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
