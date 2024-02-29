@@ -26,5 +26,8 @@
     "prebuild": "rm -rf ./lib",
     "build": "tsc -b",
     "postbuild": "cp ./wdio.conf.ts ./lib/wdio.conf.ts"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
